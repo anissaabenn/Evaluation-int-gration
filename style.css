@@ -1,0 +1,66 @@
+.background {
+    width: 100%;
+    height: 550px;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+h1 {
+    padding-top: 20px;
+}
+.appear {
+    display: block;
+}
+form {
+    position: absolute;
+    top: 450px;
+    left: 500px;
+    justify-content: space-between;
+    background-color: grey;
+    opacity: 80%;
+}
+button {
+    background-color: rgb(103, 211, 40);
+    opacity: 50%;
+    font-weight: 900;
+}
+.agence {
+    width: 180px;
+    height: 150px;
+}
+ .resultat {
+    width: 100%;
+    text-align: center;
+ }
+
+ .navbar-toggler {
+    position: absolute;
+    right: 30%;
+    bottom: 80%;
+}
+.navbar {
+    padding: 0px;
+    float: right;
+}
+ul {
+    display: none;
+}
+li {
+    list-style-type: none;
+    background-color: white;
+    color: black;
+}
+article {
+    text-align: center;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.contact > p {
+    margin: 0px 0px 0px 0px;
+    text-align:center;
+}

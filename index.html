@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evaluation intégration</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="background">
+            <h1>Bienvenue à bord</h1>
+            <p>Location de voiture 24h/24 et 7j/7</p>
+            <nav onclick="magie()" class="navbar">
+                <div class="menu">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <ul id="elem">
+                    <li>Louer une voiture</li>
+                    <li>Louer un utilitaire</li>
+                    <li>Réserver un chauffeur</li>
+                    <li>Découvrez nos agences</li>
+                    <li>Mon compte</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <form>
+        <input type="adresse" id="adresse" name="adresse" placeholder="Adresse de départ" required>
+        <input type="date" id="start" name="" value="Date de départ" min="2022-07-20" max="2023-12-31">
+        <input type="date" id="start" name="" value="Date de départ" min="2022-07-20" max="2023-12-31">
+        <button>Valider ma recherche</button>
+            </form>
+        </div>
+    </header>
+    <p class="resultat"><strong>7</strong> résultats</p>
+
+    <article>
+        <img src="./images/vehicule1.png">
+        <p>Peugeot 208</p>
+            <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0,5/km supplémentaire).
+            999€ - Agence de Paris</p>
+            <button>Réserver et Payer</button></article>
+            <article>
+                <img src="./images/vehicule2.png">
+                <p>Ford Focus</p>
+                    <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0,5/km supplémentaire).
+                    999€</p>
+                    <button>Réserver et Payer</button></article>
+                    <article>
+                        <img src="./images/vehicule3.png">
+                        <p>Audi A1</p>
+                            <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0,55/km supplémentaire).
+                            1 100€ - Agence de Paris</p>
+                            <button>Réserver et Payer</button></article>
+                            <article>
+                                <img src="./images/vehicule4.png">
+                                <p>Opel Mokka</p>
+                                    <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0,4/km supplémentaire).
+                                    1 1150€ - Agence de Paris</p>
+                                    <button>Réserver et Payer</button></article>
+
+                                    <div class="contact"> 
+                                        <img class="agence" src="./images/agence.jpg">
+                                        <p style="white-space: pre;">
+                                        Notre Agence de Paris
+                                        300 boulevard de vaugirard, 75015, Paris
+                                        Ouvert 7j/7 de 09h à 13h et de 14h à 20h
+                                        01 49 78 21 33
+                                        contact@vtc.com</p>
+                                    </div>
+    </div><script src="./js.js"></script>
+</body>
+
+</html>
